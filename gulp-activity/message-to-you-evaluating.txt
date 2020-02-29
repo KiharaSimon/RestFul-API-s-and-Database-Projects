@@ -1,0 +1,13 @@
+Please note because we're supposed to serve the from the dist/ folder you must include <script src="./node_modules/babel-polyfill/browser.js"></script> (browser babel-polyfill) to your blog.html before attempting to add blog posts.
+
+I copied the images folder to the dist/ folder because of the same reason.
+
+Some of the packages used in the course are deprecated(like gulp-run-sequence is replaced by gulp4-run-sequence) so I had to use the latest ones.
+
+Ensure npm install is working correctly to avoid not installing all the dependencies.
+
+I have taken time to ensure everything is working as expected, so Please take your time to assess my work.
+
+
+
+

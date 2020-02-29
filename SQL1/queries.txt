@@ -1,0 +1,8 @@
+1.SELECT first_name, last_name FROM employees
+2.SELECT * FROM employees WHERE hire_date > 19990801
+3.SELECT * FROM dept_emp
+  UNION
+  SELECT * FROM dept_manager
+4.SELECT employees.emp_no, salaries.salary FROM employees JOIN salaries ON employees.emp_no = salaries.emp_no WHERE   employees.birth_date = '1964-01-31'
+5.SELECT employees.emp_no, employees.first_name,employees.last_name, dept_emp.dept_no,   departments.dept_name,dept_emp.from_date,dept_emp.to_date FROM employees,dept_emp,departments WHERE employees.emp_no =   dept_emp.emp_no AND dept_emp.dept_no = departments.dept_no AND employees.emp_no = '499902'
+6.SELECT count(*)  FROM employees WHERE employees.last_name = 'Gewali'

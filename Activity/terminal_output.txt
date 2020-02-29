@@ -1,0 +1,102 @@
+USER@DESKTOP-DD11MKU MINGW64 ~
+$ mkdir art-museum-website
+
+USER@DESKTOP-DD11MKU MINGW64 ~
+$ cd art-museum-website
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ mkdir css
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ cd css
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website/css
+$ touch main.css
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website/css
+$ ls
+main.css
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website/css
+$ cd ..
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ mkdir img
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ mkdir js
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ cd js
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website/js
+$ touch main.js
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website/js
+$ ls
+main.js
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website/js
+$ cd ..
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ touch "404.html" "index.html" "about.html" "contact.html" "robots.txt"
+
+USER@DESKTOP-DD11MKU MINGW64 ~/art-museum-website
+$ cd ..
+
+USER@DESKTOP-DD11MKU MINGW64 ~
+$ mkdir artworks
+
+USER@DESKTOP-DD11MKU MINGW64 ~
+$ cd Downloads
+
+USER@DESKTOP-DD11MKU MINGW64 ~/Downloads
+$ ls
+__MACOSX/  desktop.ini  paintings/  paintings.zip
+
+USER@DESKTOP-DD11MKU MINGW64 ~/Downloads
+$ mv paintings ../artworks
+
+USER@DESKTOP-DD11MKU MINGW64 ~/Downloads
+$ cd ..
+
+USER@DESKTOP-DD11MKU MINGW64 ~
+$ cd artworks
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks
+$ ls
+paintings/
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks
+$ cd paintings
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks/paintings
+$ ls
+guernica.jpg  mona-lisa.jpg  the-starry-night.jpg  water-lilies.jpg
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks/paintings
+$ cd ..
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks
+$ mkdir artist-info
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks
+$ cd artist-info
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks/artist-info
+$ touch "leornado-da-vinci.txt" "claude-monet.txt" "pablo-picasso.txt" "vincent-van-gogh.txt"
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks/artist-info
+$ ls
+claude-monet.txt  leornado-da-vinci.txt  pablo-picasso.txt  vincent-van-gogh.txt
+
+USER@DESKTOP-DD11MKU MINGW64 ~/artworks/artist-info
+$ cd ~
+
+USER@DESKTOP-DD11MKU MINGW64 ~
+
+
+
+
+
